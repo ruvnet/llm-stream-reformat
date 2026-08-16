@@ -1,0 +1,17 @@
+name: CI
+on:
+  push: { branches: [main] }
+  pull_request: { branches: [main] }
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+        with: { targets: wasm32-unknown-unknown }
+      - name: cargo test
+        working-directory: crates/stream-reformat
+        run: cargo test --all-features
+      - name: wasm build check
+        working-directory: crates/stream-reformat
+        run: cargo build --release --features wasm --target wasm32-unknown-unknown
