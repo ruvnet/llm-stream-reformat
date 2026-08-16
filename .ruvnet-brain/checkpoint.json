@@ -1,0 +1,9 @@
+{
+  "project": "llm-stream-reformat",
+  "done_criteria": "cd crates/stream-reformat && cargo test  (exit 0) AND docs/index.html artifact live-verifiable",
+  "iteration": 1,
+  "completed": ["crate+3 adapters+tests", "npm llm-stream-reformat@0.1.0 published", "public repo ruvnet/llm-stream-reformat", "CI"],
+  "next": "docs/ Pages scrollytelling + admin-ui artifact (like ai-text-watermark), then live provider adapters behind env keys",
+  "fence": "NO npm publish / Pages deploy / repo create / force-push autonomously — build+test+commit+push only; stop at fence and name the human click",
+  "blockers": ""
+}
