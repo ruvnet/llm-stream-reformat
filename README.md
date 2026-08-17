@@ -10,6 +10,17 @@ Separate a reasoning model's **thinking** from its **answer**, collapse repetiti
 [![license](https://img.shields.io/badge/license-MIT-blue)](./LICENSE)
 [![wasm](https://img.shields.io/badge/wasm-Node%20%2B%20Browser-purple)](#install)
 [![built on midstream](https://img.shields.io/badge/built%20on-ruvnet%2Fmidstream-e6b45a)](https://github.com/ruvnet/midstream)
+[![live walkthrough](https://img.shields.io/badge/%E2%96%B6_live-walkthrough-4fd6cf?labelColor=070b10)](https://ruvnet.github.io/llm-stream-reformat/)
+
+<br>
+
+<a href="https://ruvnet.github.io/llm-stream-reformat/">
+  <img src="docs/preview.jpg" alt="llm-stream-reformat — reshape a live LLM token stream while it's still arriving: separate a reasoning model's thinking from its answer, collapse repetition loops, and normalize whitespace, inflight" width="860">
+</a>
+
+<b><a href="https://ruvnet.github.io/llm-stream-reformat/">▶&nbsp; Open the interactive walkthrough&nbsp;→</a></b>
+
+<sub>An animated, mobile-friendly scroll-through of what happens to the stream.</sub>
 
 </div>
 
